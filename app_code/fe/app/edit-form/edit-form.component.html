@@ -1,0 +1,26 @@
+<div>
+  <div class="form-group">
+    <label for="fname">First Name</label>
+    <input type="text" class="form-control" id="fname" [(ngModel)]="fname" >
+  </div>
+
+  <div class="form-group">
+    <label for="lname">Last Name</label>
+    <input type="text" class="form-control" id="lname" [(ngModel)]="lname" >
+  </div>
+
+
+  <div class="form-group">
+    <label for="facNumber">Faculty Number</label>
+    <input type="number" class="form-control" id="facNumber" [(ngModel)]="facNumber" >
+  </div>
+
+
+  <div class="form-group">
+    <label for="bdate">Birth Date</label>
+    <input type="date" class="form-control" id="bdate" [(ngModel)]="birthDate" >
+  </div>
+
+  <button type="button" class="btn btn-outline-success" (click)="addStudent()">Submit</button>
+
+</div>
